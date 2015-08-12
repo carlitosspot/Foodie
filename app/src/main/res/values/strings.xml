@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="starbuzz_logo">Starbuzz logo</string>
+    <string-array name="options">
+        <item>Dringks</item>
+        <item>Food</item>
+        <item>Stores</item>
+    </string-array>
 </resources>
