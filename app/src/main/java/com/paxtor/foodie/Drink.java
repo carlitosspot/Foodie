@@ -28,7 +28,7 @@ public class Drink {
         return name;
     }
 
-    public int getImageResoureId(){
+    public int getImageResourceId(){
         return imageResoureId;
     }
 

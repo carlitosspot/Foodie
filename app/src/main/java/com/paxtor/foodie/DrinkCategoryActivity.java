@@ -17,13 +17,13 @@ public class DrinkCategoryActivity extends ListActivity {
         listDrinks.setAdapter(listAdapter);
     }
 
-//    @Override
-//    public void onListItemClick(ListView listView,
-//                                View itemView,
-//                                int position,
-//                                long id) {
-//        Intent intent = new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
-//        intent.putExtra(DrinkActivity.EXTRA_DRINKNO, (int) id);
-//        startActivity(intent);
-//    }
+    @Override
+    public void onListItemClick(ListView listView,
+                                View itemView,
+                                int position,
+                                long id) {
+        Intent intent = new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
+        intent.putExtra(DrinkActivity.EXTRA_DRINKNO, (int) id);
+        startActivity(intent);
+    }
 }
